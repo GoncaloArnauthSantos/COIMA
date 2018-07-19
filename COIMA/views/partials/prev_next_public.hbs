@@ -1,0 +1,20 @@
+<div class="buttonlist">
+    {{#hasPage page "1"}}
+        <div class="innerbuttons">
+            <a href="http://localhost:3000/public/page/{{dec page}}">
+                <button type="submit" class="btn btn-outline-info my-2 my-sm-0">
+                    Prev
+                </button>
+            </a>
+        </div>
+    {{/hasPage}}
+    {{#hasPage page max_pages}}
+        <div class="innerbuttons">
+            <a href="http://localhost:3000/public/page/{{inc page max_pages}}">
+                <button type="submit" class="btn btn-outline-info my-2 my-sm-0">
+                    Next
+                </button>
+            </a>
+        </div>
+    {{/hasPage}}
+</div>

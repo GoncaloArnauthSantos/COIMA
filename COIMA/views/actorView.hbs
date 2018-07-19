@@ -1,0 +1,43 @@
+
+{{>navBar}}
+
+<div class="container-fluid film-content actor-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                {{#if profile_path}}
+                    <img width='100px' src='http://image.tmdb.org/t/p/w185/{{profile_path}}'/>
+                {{else}}
+                    <img width='100px' src='/images/imdbnoimage.jpg'/>
+                {{/if}}
+                <h2 class="actor-name">Name: {{name}}</h2>
+                {{#if biography}}
+                    <p class="actor-bio">Biography: {{biography}}</p>
+                {{/if}}
+            </div>
+            <div class="col-6">
+                <div class="cast-list">
+                    <h3>{{name}}</h3>
+                    {{#if filmography}}
+                        <table>
+                            {{#each filmography}}
+                                <tr>
+                                    <td>
+                                        {{#if poster_path}}
+                                            <img width='100px' src='http://image.tmdb.org/t/p/w185/{{poster_path}}'/>
+                                        {{else}}
+                                            <img width='100px' src='/images/imdbnoimage.jpg'/>
+                                        {{/if}}
+                                    </td>
+                                    <td class="col-clip">
+                                        <a href="/movie/{{this.id}}"> {{this.title}}</a>
+                                    </td>
+                                </tr>
+                            {{/each}}
+                        </table>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

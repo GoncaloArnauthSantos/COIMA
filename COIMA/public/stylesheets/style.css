@@ -1,0 +1,514 @@
+body {
+  background: url("https://dp3ogl28gtjh0.cloudfront.net/digital/bgs/cover-image-default-app.jpg") top right no-repeat;
+  background-attachment: fixed;;
+}
+
+p{
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 3.5em;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 32px;
+  display: block;
+  padding: 0.5em 0 1em;
+  color: #ffffff;
+}
+
+li{
+  list-style-type: none
+}
+
+.comments{
+  padding-top: 45px;
+  display: table-caption;
+  margin-bottom: 10px;
+}
+
+.imgContainer {
+  display: inline-block;
+}
+
+.errorClass {
+  height: 200px;
+  width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -250px;
+  text-align: center;
+}
+
+
+/* --- Form ---- */
+
+.form-signin {
+  max-width: 450px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  width: 70%;
+  height: auto;
+  font-size: 16px;
+}
+.form-signin .btn {
+  margin: 0!important;
+}
+
+
+/* --- Homepage ---- */
+
+.coima-header {
+  margin: 0 auto;
+  padding: 3em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.homepage-cover {
+  width: 300px;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-right: 60px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.loginButtonHome {
+  margin: 10px;
+  float: right;
+}
+
+.loginButtonHome a{
+  margin-left: 10px;
+}
+
+/* --- Nav ---- */
+
+.navbar {
+  display: block;
+  min-height: 60px;
+}
+.navbar .nav-link {
+  display: inline-block;
+}
+.loginButtonNav{
+  margin-left: 10px;
+  display: inline-block;
+  float: right;
+}
+
+/* --- Search ---- */
+
+.head-app {
+  float: left;
+}
+.head-app h1 {
+  letter-spacing: 2px;
+  margin-right: 0;
+}
+.navbar-collapse {
+  display: inline-block;
+}
+
+.search-content h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 47px;
+}
+.search-content .poster-img {
+  width: 200px;
+  border: 6px solid #fff;
+}
+
+.title-poster {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+.buttonlist .btn {
+  margin: 0 15px;
+}
+
+.comment-button .btn {
+  margin: 0 15px;
+}
+
+
+/* --- Clip ---- */
+
+.film-content {
+  margin-top: 50px;
+}
+.film-content .buttonlist {
+  position: absolute;
+  bottom: 0;
+}
+.clip-poster {
+  width: 220px;
+  border: 6px solid #fff;
+}
+.clip-descript {
+  max-width: 350px;
+  margin-top: 30px;
+}
+.clip-descript span {
+  font-size: 1.15em;
+  color: #6499c1;
+}
+.clip-descript dt {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0.5em 0 0;
+  letter-spacing: 1px;
+  color: #cecece;
+}
+.clip-descript dd {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0.5em 0 0;
+  letter-spacing: 1px;
+  color: #cecece;
+}
+
+.cast-list {
+  height: 560px;
+  border-left: 1px solid white;
+  padding: 10px 30px;
+  overflow: scroll;
+}
+.cast-list h3 {
+  font-size: 1.65em;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #cecece;
+}
+.cast-list tr {
+  border-bottom: 15px solid transparent;
+}
+.cast-list .actor {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+}
+.cast-list .character {
+  display: block;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  color: #cecece;
+}
+
+
+/* --- Actor ---- */
+
+.actor-name {
+  font-size: 1.65em;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  color: #6499c1;
+}
+.actor-bio {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #cecece;
+}
+.col-clip {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  padding-left: 30px;
+}
+
+.media{
+  padding-top: 75px;
+}
+.media-body{
+  color: white;
+}
+
+.media-chat{
+  border-style: ridge;
+  color: white;
+}
+
+.media-replies{
+  margin-left: 30px;
+}
+
+.buttonlist {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.innerbuttons{
+  display: inline-block;
+}
+
+.container h3{
+  color: #ffffff;
+}
+
+.buttonBack{
+
+  text-align: center;
+  width: 100%;
+  padding-bottom: 45px;
+  padding-left: 83px;
+}
+
+
+/* --- Footer ---- */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 40px;
+  text-align: center;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* --- Login ---- */
+
+.login h4{
+  margin-top: 50px;
+  color: white;
+}
+
+/* --- User ---- */
+
+.publicLstBtn{
+  float: right;
+  margin-right: 10px;
+}
+
+.listTable{
+  height: 500px;
+  padding: 10px;
+  overflow: scroll;
+  border: 2px solid white;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 50%;
+  float: left;
+}
+
+.listTable table {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.addLst{
+  max-width: 25%;
+  display: inline-block;
+  margin: 60px;
+  float: right;
+}
+
+/* --- Login ---- */
+
+.login h4{
+  margin-top: 50px;
+  color: white;
+}
+
+/* --- Add Movie ---- */
+.listSelect{
+  width: 50%;
+}
+
+.listSelect label{
+  font-size: 1.15em;
+  color: #6499c1;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* --- Login ---- */
+
+.userInfo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* --- Side Nav --- */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* --- Animations --- */
+
+.footer {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.imgList, .loginButtonHome{
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/*-----Invite Page--------*/
+.shareList{
+
+  margin-top: 100px;
+}
+
+.shareList #shareList{
+  display: inline-block;
+}
+
+.tableInvites{
+  display: inline-block;
+  margin-left: 30%;
+  height: 260px;
+  border-left: 1px solid white;
+  padding: 10px 30px;
+  overflow: scroll;
+
+}
+
+

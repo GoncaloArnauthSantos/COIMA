@@ -1,0 +1,85 @@
+
+{{>navBar}}
+
+<div class="container-fluid film-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                {{#if poster_path}}
+                    <img class="clip-poster" src='http://image.tmdb.org/t/p/w185/{{poster_path}}'/>
+                {{else}}
+                    <img class="clip-poster" src='/images/imdbnoimage.jpg'/>
+                {{/if}}
+                <div class="clip-descript">
+                    <dl>
+                        <dt><span>Title:</span> {{title}}</dt>
+                        <dd><span>Release date:</span> {{release_date}}</dd>
+                        <dd>{{#if vote_average}}</dd>
+                        <dd><span>Vote average:</span> {{vote_average}}</dd>
+                        <dd>{{/if}}</dd>
+                        <dd><span>{{#if directorName}} Director:</span> {{directorName}}{{/if}}</dd>
+                    </dl>
+                </div>
+                {{#if username}}
+                    <div class="listSelect">
+                        {{#if flashMessage.error.message}}
+                            <div class="alert alert-warning" role="alert">
+                                <strong>{{flashMessage.error.message}}</strong>
+                            </div>
+                        {{/if}}
+                        <div id="addMovie">
+                            <label>Select list (select one):</label>
+                            <select id="current-lstId" >
+                                {{#each lst}}
+                                    <option value="{{listId}}" >{{name}}</option>
+                                {{/each}}
+                            </select>
+
+                            <button id="addMovieBtn" class="btn btn-lg btn-primary" type="submit"> Add Movie </button>
+                            <input type="hidden" name="currentMovieId" value="{{movieId}}" class='current-movieId'>
+                            <input type="hidden" name="currentTitle" value="{{title}}" class='current-title'>
+                            <input type="hidden" name="currentPoster" value="{{poster_path}}" class='current-poster'>
+                        </div>
+                    </div>
+                {{/if}}
+            </div>
+            <div class="col-6">
+                {{#if cast}}
+                    <h3>Cast</h3>
+                    <div class="cast-list">
+                        <table>
+                            {{#each cast}}
+                                <tr>
+                                    <td>
+                                        {{#if profile_path}}
+                                            <img width='75px' src='http://image.tmdb.org/t/p/w185/{{profile_path}}'/>
+                                        {{else}}
+                                            <img width='75px' src='/images/imdbnoimage.jpg'/>
+                                        {{/if}}
+                                    </td>
+                                    <td class="actor">
+                                        <a href="/actor/{{id}}">
+                                            {{this.name}}
+                                        </a>
+                                    </td>
+                                    <td class="character">{{character}}</td>
+                                </tr>
+                            {{/each}}
+                        </table>
+                    </div>
+                {{/if}}
+            </div>
+        </div>
+        {{#if username}}
+            <div class="comments">
+                <h1>Comments</h1>
+                <textarea class="comment-text-area" rows="4" cols="50" name="comment" form="usrform" placeholder="Comment the movie..." required></textarea>
+                <button id="btn" class="btn btn-lg btn-primary" type="submit"> Comment </button>
+                <input type="hidden" name="currentUser" value="{{username}}" class='current-User'>
+                <input type="hidden" name="currentMovie" value="{{movieId}}" class='current-MovieId'>
+                <input type="hidden" name="currentTitle" value="{{title}}" class='current-Title'>
+            </div>
+        {{/if}}
+        {{> comments}}
+    </div>
+</div>

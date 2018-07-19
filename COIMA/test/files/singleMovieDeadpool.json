@@ -1,0 +1,76 @@
+{
+  "adult": false,
+  "backdrop_path": "/n1y094tVDFATSzkTnFxoGZ1qNsG.jpg",
+  "belongs_to_collection": {
+    "id": 448150,
+    "name": "Deadpool Collection",
+    "poster_path": "/30c5jO7YEXuF8KiWXLg9m28GWDA.jpg",
+    "backdrop_path": "/hBQOWY8qWXJVFAc8yLTh1teIu43.jpg"
+  },
+  "budget": 58000000,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "http://www.foxmovies.com/movies/deadpool",
+  "id": 293660,
+  "imdb_id": "tt1431045",
+  "original_language": "en",
+  "original_title": "Deadpool",
+  "overview": "Deadpool tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+  "popularity": 184.306061,
+  "poster_path": "/inVq3FRqcYIRl2la8iZikYYxFNR.jpg",
+  "production_companies": [
+    {
+      "name": "Twentieth Century Fox Film Corporation",
+      "id": 306
+    },
+    {
+      "name": "Marvel Entertainment",
+      "id": 7505
+    },
+    {
+      "name": "The Donners' Company",
+      "id": 11307
+    },
+    {
+      "name": "TSG Entertainment",
+      "id": 22213
+    },
+    {
+      "name": "Kinberg Genre",
+      "id": 78091
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2016-02-09",
+  "revenue": 783112979,
+  "runtime": 108,
+  "spoken_languages": [
+    {
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Witness the beginning of a happy ending",
+  "title": "Deadpool",
+  "video": false,
+  "vote_average": 7.4,
+  "vote_count": 11566
+}

@@ -1,0 +1,15 @@
+{{>navBar}}
+
+<div>
+    <div class="container">
+        <div id = "lstRow" class="row">
+            {{#each shList}}
+                {{>favouriteList}}
+            {{/each}}
+        </div>
+    </div>
+
+    {{#if shList}}
+        {{> prev_next_user}}
+    {{/if}}
+</div>

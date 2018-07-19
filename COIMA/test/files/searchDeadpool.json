@@ -1,0 +1,121 @@
+{
+  "page": 1,
+  "total_results": 6,
+  "total_pages": 1,
+  "results": [
+    {
+      "vote_count": 11545,
+      "id": 293660,
+      "video": false,
+      "vote_average": 7.4,
+      "title": "Deadpool",
+      "popularity": 184.086022,
+      "poster_path": "/inVq3FRqcYIRl2la8iZikYYxFNR.jpg",
+      "original_language": "en",
+      "original_title": "Deadpool",
+      "genre_ids": [
+        28,
+        12,
+        35
+      ],
+      "backdrop_path": "/n1y094tVDFATSzkTnFxoGZ1qNsG.jpg",
+      "adult": false,
+      "overview": "Deadpool tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+      "release_date": "2016-02-09"
+    },
+    {
+      "vote_count": 0,
+      "id": 383498,
+      "video": false,
+      "vote_average": 0,
+      "title": "Deadpool 2",
+      "popularity": 6.563479,
+      "poster_path": "/ioBPtnqnmvliuIToWqGLX0FthKu.jpg",
+      "original_language": "en",
+      "original_title": "Deadpool 2",
+      "genre_ids": [
+        28,
+        35,
+        878
+      ],
+      "backdrop_path": "/fdSWl53eyOlYEcScy4omKibsuaZ.jpg",
+      "adult": false,
+      "overview": "Plot unknown.",
+      "release_date": "2018-05-30"
+    },
+    {
+      "vote_count": 2,
+      "id": 425269,
+      "video": false,
+      "vote_average": 5,
+      "title": "Deadpool 3",
+      "popularity": 1.527818,
+      "poster_path": "/23fqzbEPJzrJ7x7RYE9p9FtX7n2.jpg",
+      "original_language": "en",
+      "original_title": "Deadpool 3",
+      "genre_ids": [
+        878,
+        35,
+        28,
+        12
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "",
+      "release_date": ""
+    },
+    {
+      "vote_count": 7,
+      "id": 199982,
+      "video": false,
+      "vote_average": 6.4,
+      "title": "Deadpool: A Typical Tuesday",
+      "popularity": 1.628837,
+      "poster_path": "/9Ylr61rVvqQH3HtNsSNuRC1MXKK.jpg",
+      "original_language": "en",
+      "original_title": "Deadpool: A Typical Tuesday",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "backdrop_path": "/9hfLnUX26Z3RpIog6FaqEd1ShZo.jpg",
+      "adult": false,
+      "overview": "Marvel's popular crimson assassin has been hired to take out a specific target. Kill the man, get the cash. The problem is, he's not the only one on the job.",
+      "release_date": "2012-06-11"
+    },
+    {
+      "vote_count": 3,
+      "id": 413323,
+      "video": false,
+      "vote_average": 7.5,
+      "title": "Deadpool: From Comics to Screen... to Screen",
+      "popularity": 1.734028,
+      "poster_path": "/chV0avy5ogIB2PMTInT4KpHDzwj.jpg",
+      "original_language": "en",
+      "original_title": "Deadpool: From Comics to Screen... to Screen",
+      "genre_ids": [
+        99
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "This documentary divided into five segments examines the source and its path to the movies, backstory, special effects story/character areas, cast and performances. It includes notes from Reynolds, Liefeld, Miller, Wernick, Reese, executive producers Aditya Sood and Stan Lee, co-creator/comics writer Fabian Nicieza, producer Simon Kinberg, comics writer Joe Kelly, specialty costume designer Russell Shinkle, makeup designer Bill Corso, production designer Sean Haworth, director of photography Ken Seng, executive producer/unit production manager John J. Kelly, previs supervisor Franck Balson, stunt coordinator Philip J. Silvera, visual effects supervisors Pauline Duvall and Jonathan Rothbart, visual effects producer Annemarie Griggs, 2nd unit director/stunt coordinator Robert Alonzo, special effects coordinator Alex Burdett, utility stunts Regis Harrington, composer Tom Holkenberg, and actors Morena Baccarin, TJ Miller, Brianna Hildebrand, Leslie Uggams, Ed Skrein, and Gina Carano.",
+      "release_date": "2016-05-10"
+    },
+    {
+      "vote_count": 1,
+      "id": 451364,
+      "video": false,
+      "vote_average": 10,
+      "title": "Deadpool Musical: Beauty and the Beast Gaston Parody",
+      "popularity": 1.104135,
+      "poster_path": "/qzADoZg1YcWjiYsocw9xKEc9FKe.jpg",
+      "original_language": "en",
+      "original_title": "Deadpool Musical: Beauty and the Beast Gaston Parody",
+      "genre_ids": [],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "Who knew the \"Merc with a Mouth\" could sing?. Check out this fan-made musical mashup of \"Deadpool\" and \"Beauty and the Beast\" featuring Wade's own NSFW, mature-audiences version of the classic song \"Gaston\" from the original musical.",
+      "release_date": ""
+    }
+  ]
+}

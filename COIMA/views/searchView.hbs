@@ -1,0 +1,29 @@
+
+{{>navBar}}
+
+<div class="container-fluid search-content">
+    <h1>{{name}}</h1>
+    <div class="container">
+        <div class="row">
+            {{#each results}}
+                <div class="col col-lg-3">
+                    <a href="/movie/{{id}}">
+                        {{#if poster_path}}
+                            <img class="poster-img" src='http://image.tmdb.org/t/p/w185/{{poster_path}}'/>
+                            <p class="title-poster">{{title}}</p>
+                        {{else}}
+                            <img class="poster-img" src='/images/imdbnoimage.jpg'/>
+                            <div class="overlay">
+                                <div class="text">{{title}}</div>
+                            </div>
+                            <p class="title-poster"></p>
+                        {{/if}}
+                    </a>
+            </div>
+        {{/each}}
+        </div>
+    </div>
+    {{#if results}}
+        {{> prev_next_search}}
+    {{/if}}
+</div>

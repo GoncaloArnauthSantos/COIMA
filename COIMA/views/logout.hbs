@@ -1,0 +1,11 @@
+{{>navBar}}
+
+<div class="container" align="center">
+    <div class="userInfo">
+        <img src="/images/9-256.png"/>
+        <h1> Are you sure you want to logout {{username}}?</h1>
+    </div>
+    <form  method="POST" action="/logout">
+        <button class="btn btn-lg btn-primary " type="submit" >Logout</button>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+<div id="chat" class="media-chat" >
+    <input type="hidden" name="currentReplyedUser" value="{{username}}" class='current-ReplyUser'>
+    <input type="hidden" name="currentReplyedId" value="{{id}}" class='current-ReplyId'>
+    <h4 class="media-heading user_name">{{username}}</h4>
+    {{comment}}
+    <button id="reply" class="btn btn-lg btn-primary" type="submit"> Write Comment </button>
+    <button id="writeComment" class="btn btn-lg btn-primary" onclick="addTextArea();"> Reply </button>
+    <div class="toShow" id="toShow" style="display: none;">
+        <div>
+            <textarea cols="30" class="change-text-area" form="usrform" placeholder="Reply..." required></textarea>
+        </div>
+    </div>
+    <div id="response" class="media-replies">
+        {{#each responses}}
+            {{> movieComments}}
+        {{/each}}
+    </div>
+</div>

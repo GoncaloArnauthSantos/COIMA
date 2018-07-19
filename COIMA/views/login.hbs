@@ -1,0 +1,18 @@
+{{>navBar}}
+
+<div class="container" align="center">
+    <div class="col-md-offset-5 col-md-3">
+        <form class="login" method="POST" action="/login">
+            <h4>Login</h4>
+            {{#if error.message}}
+                <div class="alert alert-warning" role="alert">
+                    <strong>Warning! {{error.message}}</strong>
+                </div>
+            {{/if}}
+            <input type="text" name="username" class="form-control input-sm chat-input" placeholder="username" required/>
+            <input type="password" name="password" class="form-control input-sm chat-input" placeholder="password" required/>
+            </br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+    </div>
+</div>

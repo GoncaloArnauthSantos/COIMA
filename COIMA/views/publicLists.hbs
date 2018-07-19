@@ -1,0 +1,17 @@
+{{>navBar}}
+<div class="container-fluid search-content">
+    <h1>Public Lists</h1>
+    <div id="lstpainel">
+
+        <div class="container">
+            <div id = "lstRow" class="row">
+                {{#each pubList}}
+                    {{>favouriteList}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{#if list}}
+        {{> prev_next_public}}
+    {{/if}}
+</div>

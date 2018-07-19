@@ -1,0 +1,31 @@
+{
+  "username": "goncalosantos",
+  "password": "123",
+  "name": "Goncalo Santos",
+  "list":[
+    {
+      "listId": 1511910404106,
+      "name": "batman",
+      "results": [
+        {
+          "movieId": 272,
+          "title": "Batman Begins"
+        },
+        {
+          "movieId": 268,
+          "title": "Batman"
+        }
+      ]
+    },
+    {
+      "listId": 1511910404107,
+      "name": "comedia",
+      "results": [
+        {
+          "movieId": 37735,
+          "title": "Easy A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{{>navBar}}
+<div class="container-fluid search-content">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h3 style="color: #ffffff;">Comments</h3>
+        <ul>
+            {{#each comments}}
+                <li>
+                    <p> <a href="/movie/{{movieId}}"> {{title}}</a></p>
+                    <p>{{comment}}</p>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776; My comments</span>
+
+    <div class="publicLstBtn">
+        <a href="/pubList/page/1">
+            <button class="btn btn-outline-info my-2 my-sm-0" id="publicLstBtn" type="submit"> Public Lists </button>
+        </a>
+        <a href="/shareList/page/1">
+            <button class="btn btn-outline-info my-2 my-sm-0" id="sharePageBtn" type="submit"> Share Lists </button>
+        </a>
+        <a href="/invitePage">
+            <button class="btn btn-outline-info my-2 my-sm-0" id="invitePageBtn" type="submit"> Invites </button>
+        </a>
+    </div>
+    <h1>Your favourite movies!</h1>
+    <div id="lstpainel">
+        <div class="addLst">
+            <p> <input type="radio" id="pbl" name="visibility" checked > Public
+            <p> <input type="radio" id="prv" name="visibility" > Private
+            <input  type="text" id="lstName" class="form-control input-sm chat-input" placeholder="new list" required />
+            <button id ="addLstbtn" class="btn btn-lg btn-primary btn-block" type="submit">Create new List</button>
+        </div>
+        <div class="container">
+            <div id = "lstRow" class="row">
+                {{#each lst}}
+                    {{>favouriteList}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{#if list}}
+        {{> prev_next_user}}
+    {{/if}}
+</div>
+
+
+
+
+
+

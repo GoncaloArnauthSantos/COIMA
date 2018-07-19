@@ -1,0 +1,33 @@
+{{>navBar}}
+
+<div class="shareList" align="center">
+    <div class="col-md-offset-5 col-md-3" id="shareList">
+        <p>Select list to share (select one):</p>
+        <select id="current-lstId" >
+            {{#each lst}}
+                <option value="{{listId}}" >{{name}}</option>
+            {{/each}}
+        </select>
+
+        <input  type="text" id="shareUser" class="form-control input-sm chat-input" placeholder="Share with ... " required />
+        <button id="shareListBtn" class="btn btn-lg btn-primary" type="submit"> Share list </button>
+    </div>
+
+
+    <div class="tableInvites">
+        <table>
+            {{#each inv}}
+                <tr id="row{{listId}}">
+                    <td>
+                        <button onclick="acceptList({{listId}})" id="acceptBtn" class="title-poster"><input type="image" src="/images/accept.png" name="saveForm" class="btTxt submit"  width="16" height="16" /> </button>
+                        <button onclick="denyList({{listId}})" id="denyBtn" class="title-poster" ><input type="image" src="/images/molumen-red-round-error-warning-icon.png" name="deleteForm" class="btTxt submit" width="16" height="16" /> </button>
+                    </td>
+                    <td>
+                        <p>{{name}}   from: {{creatorId}}</p>
+                    </td>
+                </tr>
+            {{/each}}
+        </table>
+    </div>
+
+</div>

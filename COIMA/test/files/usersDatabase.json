@@ -1,0 +1,43 @@
+[
+  {
+    "username": "joaoleitao",
+    "password": "123",
+    "name": "Joao Leitao",
+    "list":[]
+  },
+  {
+    "username": "ricardomoreira",
+    "password": "123",
+    "name": "Ricardo Moreira",
+    "list":[]
+  },
+  {
+    "username": "goncalosantos",
+    "password": "123",
+    "name": "Goncalo Santos",
+    "list":[
+      {
+        "name" : "batman",
+        "movies" : [
+          {
+            "movieId": 272,
+            "title": "Batman Begins"
+          },
+          {
+            "movieId": 268,
+            "title": "Batman"
+          }
+        ]
+      },
+      {
+        "name" : "comedia",
+        "movies" : [
+          {
+            "movieId": 37735,
+            "title": "Easy A"
+          }
+        ]
+      }
+    ]
+  }
+]

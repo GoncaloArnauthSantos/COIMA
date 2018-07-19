@@ -1,0 +1,32 @@
+<nav class="navbar navbar-dark bg-dark">
+    <div class="head-app">
+        <img src="/images/logo.jpg" width="16" height="16"/>
+        <h1 class="navbar-brand mb-0">COIMA</h1>
+        <a class="nav-link" href="/">Home</a>
+    </div>
+    <div class="navbar-collapse" id="navbarColor01">
+        <form class="form-inline" action="/search/" method="GET" class="form-signin">
+            <input class="form-control mr-sm-2" name="q" type="search" placeholder="Search" aria-label="Search" required/>
+            <input type="text" name="page" value="1" hidden/>
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+    {{#if username}}
+        <div class="loginButtonNav">
+            <a href="/logout"><button class="btn btn-outline-info my-2 my-sm-0" type="button">Logout</button></a>
+        </div>
+        <div class="loginButtonNav">
+            <a href="/user/page/1"><button class="btn btn-outline-info my-2 my-sm-0" type="button">
+                <img src="/images/user_male2-128.png" width="16" height="16"/>
+                Welcome {{username}}!
+            </button></a>
+        </div>
+    {{else}}
+        <div class="loginButtonNav">
+            <a href="/signUp"><button class="btn btn-outline-info my-2 my-sm-0" type="button">Sign Up</button></a>
+        </div>
+        <div class="loginButtonNav">
+            <a href="/login"><button class="btn btn-outline-info my-2 my-sm-0" type="button">Login</button></a>
+        </div>
+    {{/if}}
+</nav>

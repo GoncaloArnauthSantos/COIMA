@@ -1,0 +1,20 @@
+{{>navBar}}
+
+<div class="container" align="center">
+    <div class="col-md-offset-5 col-md-3">
+        <form class="login"  method="POST" action="/signUp">
+            <h4>Sign Up</h4>
+            {{#if error.message}}
+                <div class="alert alert-warning" role="alert">
+                    <strong>Warning! {{error.message}}</strong>
+                </div>
+            {{/if}}
+            <input type="text" name="name" class="form-control input-sm chat-input" placeholder="Name...">
+            <input type="email" name="email" class="form-control input-sm chat-input" placeholder="Email..."/>
+            <input type="text" name="username" class="form-control input-sm chat-input" placeholder="Username..."/>
+            <input type="password" name="password" class="form-control input-sm chat-input" placeholder="Password...">
+            </br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" >Sign Up</button>
+        </form>
+    </div>
+</div>

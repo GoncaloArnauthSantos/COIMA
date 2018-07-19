@@ -1,0 +1,19 @@
+<div id="deleteLst" class="col col-lg-3">
+    <a href="/list/{{listId}}/page/1">
+        <img src="/images/movie_folder.png"/>
+    </a>
+    <div class="editDelete">
+        <button id="editBtn" class="title-poster"><input type="image" src="/images/editimage.png" name="saveForm" class="btTxt submit"  width="16" height="16" /> </button>
+        <button  id="deleteBtn" class="title-poster" ><input type="image" src="/images/trash-circle-red-128.png" name="deleteForm" class="btTxt submit"  width="16" height="16" /> </button>
+        <p id="userListName">{{name}}</p>
+        <div class="toShow" id="toShow" style="display: none;">
+            <div>
+                <textarea cols="30" class="change-text-area" form="usrform" placeholder="New list name..." required></textarea>
+            </div>
+            <div>
+                <button id="changeName" class="btn btn-lg btn-primary btn-block" type="submit"> Change </button>
+                <input type="hidden" name="listId" value="{{listId}}" class='listId'>
+            </div>
+        </div>
+    </div>
+</div>

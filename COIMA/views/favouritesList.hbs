@@ -1,0 +1,39 @@
+{{>navBar}}
+
+<div class="container-fluid search-content">
+    <h1>{{name}}</h1>
+    <div class="container">
+        {{#if flashMessage.error.message}}
+            <div class="alert alert-warning" role="alert">
+                <strong>Warning! {{flashMessage.error.message}}</strong>
+            </div>
+        {{/if}}
+        <div class="row">
+            {{#each results}}
+                <div class="col col-lg-3" id="tableItem">
+                    <a href="/movie/{{movieId}}">
+                        {{#if poster_path}}
+                            <img class="poster-img" src='http://image.tmdb.org/t/p/w185/{{poster_path}}'/>
+                            <p class="title-poster">{{title}}</p>
+                        {{else}}
+                            <img class="poster-img" src='/images/imdbnoimage.jpg'/>
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="title-poster">{{title}}</p>
+                                </div>
+                            </div>
+                        {{/if}}
+                    </a>
+                    <div class="deletetable">
+                        <button id="btnDelete" class="btn btn-lg btn-primary" type="submit"> Delete </button>
+                        <input type="hidden" name="currentList" value="{{../listId}}" class='current-List'>
+                        <input type="hidden" name="deleteMovie" value="{{movieId}}" class='current-deleteMovie'>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+    {{#if results}}
+        {{> prev_next_lists}}
+    {{/if}}
+</div>
